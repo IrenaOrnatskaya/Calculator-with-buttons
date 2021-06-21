@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box; }
+
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p, 
+a, ol, ul, li, form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none; }
+
+.container {
+	width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+	
+}
+.calculator {
+	background-color: #aebd38;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border-radius: 15px;
+}
+.inputField {
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.buttons {
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+.buttons .btn, .result, .numberClear {
+	padding: 6px;
+    cursor: pointer;
+    margin: 3px;
+}
